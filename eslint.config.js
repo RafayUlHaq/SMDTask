@@ -21,7 +21,7 @@ module.exports = [
     },
     rules: {
       // TypeScript essentials
-      '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+      '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       // React
       'react/jsx-uses-react': 'error',
       'react/jsx-uses-vars': 'error',
