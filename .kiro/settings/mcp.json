@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "expo": {
+      "type": "http",
+      "url": "https://mcp.expo.dev/mcp",
+      "disabled": false,
+      "note": "Expo MCP Server — authenticate via OAuth when prompted. Provides live Expo docs, EAS Build management, simulator screenshots, and more."
+    }
+  }
+}
