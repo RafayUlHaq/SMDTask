@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, FlatList } from 'react-native';
 
 // Student info
 const STUDENT_NAME = 'Rafay';
-const ROLL_NUMBER = '22I-2520';
+const ROLL_NUMBER = 'L1S22BSCS0001';
 
 interface Product {
   id: string;
@@ -19,6 +19,9 @@ const PRODUCTS: Product[] = [
   { id: '4', name: 'Yoga Mat', price: '$24.99', category: 'Sports' },
   { id: '5', name: 'Laptop Stand', price: '$29.99', category: 'Electronics' },
 ];
+
+// ❌ INTENTIONAL LINT ERROR: unused variable — will fail CI
+const unusedVariable = 'this variable is never used anywhere';
 
 function ProductCard({ item }: { item: Product }) {
   return (
