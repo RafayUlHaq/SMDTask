@@ -20,8 +20,7 @@ const PRODUCTS: Product[] = [
   { id: '5', name: 'Laptop Stand', price: '$29.99', category: 'Electronics' },
 ];
 
-// ❌ INTENTIONAL LINT ERROR: unused variable — will fail CI
-const unusedVariable = 'this variable is never used anywhere';
+// ✅ FIX: removed unused variable that was breaking the CI pipeline
 
 function ProductCard({ item }: { item: Product }) {
   return (
